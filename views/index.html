@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="穗片土货">
+    <meta name="keywords" content="穗片土货,土货,穗片">
+    <meta name="author" content="穗片土货">
+    <meta name="robots" content="index,follow">
+    <meta name="application-name" content="shuipian.com">
+    <title>碎片科技</title>
+    <link href="css/lib/debris.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/lib/animate.css" rel="stylesheet">
+    <!--选择相应css-->
+    <script type="text/javascript" src="js/lib/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/lib/animation.min.js"></script>
+    <script type="text/javascript">
+        var browser = {
+            versions: function () {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                var rSafari = /.*version\/([\w.]+).*(safari).*/;// safari
+                return { //移动终端浏览器版本信息
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                    iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    // safari: u//.indexOf('Safari') > -1
+                };
+            }(),
+        };
+    </script>
+</head>
+<body>
+<div >
+    <!--max-width: 767px-->
+    <div class="nav-iPad">
+        <div class="sp-header" >
+            <div class="sp-logo">
+                <i class="sp-logo"></i>
+                <span class="sp-logo-txt">碎片科技</span>
+            </div>
+            <i class="sp-icon icon-gengduo icon-iconziti36 font20" id="icon">
+            </i>
+        </div>
+        <ul class="sp-header-nav" style="display: none">
+            <li><a href="">首页</a></li>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">技术博客</a></li>
+            <li><a href="">API文档</a></li>
+            <li><a href="">购买土货</a></li>
+        </ul>
+    </div>
+    <div class="content-iPad">
+        <header class="header-bg clear sp-relative">
+            <div class="header-content">
+                <div class="nav-width clear">
+                    <div class="sp-logo">logo</div>
+                    <nav class="sp-nav">
+                        <div class="center nav-button active">首页</div>
+                        <div class="center nav-button ">关于我们</div>
+                        <div class="center nav-button ">技术博客</div>
+                        <div class="center nav-button ">API文档</div>
+                        <div class="center nav-button ">购买土货</div>
+                    </nav>
+                </div>
+                <div class="intro-data container">
+                    <div class="intro-text">
+                        <i class="web-font">农产品上行大数据平台</i>
+                        <div style="width: 15%;height: 4px;background: #fff;"></div>
+                        <p class="margin-tb-15">
+                            清晨乡土田间的一株青菜，鸡窝里温热的鸡蛋，农夫市集上卖的一篮野蘑菇。农产品的背后是自然的节气，是乡土的礼仪，也是饮食的习俗。一方面，城市居民越来越渴望回归山野，重温乡土文化，对纯天然农产品的需求与日俱增。另一方面农产品受到关于意识、监管、利益、信任的挑战，我们关注的是在农产品产业链中自下而上创新的新可能。
+                        </p>
+                        <div class="video-details margin-t-20">视频详情 <i>#</i></div>
+                    </div>
+                    <div class="sp-wow zoomIn header-data-bg" data-wow-duration="2s" data-wow-delay="1s"></div>
+                </div>
+            </div>
+        </header>
+        <content class="are-doing clear">
+            <div class="container">
+                <i class="web-font sp-f48">我们在做什么</i>
+                <ul class="are-doing-list clear">
+                    <li>
+                        <div class="are-doing-list-top">
+                            <div class="are-doing-list-bg data-collect"></div>
+                        </div>
+                        <div class="data-collect-text text-center">
+                            <h4 class="sp-f28 margin-b-10">数据采集</h4>
+                            <p class="sp-txt-4A">对农产品的数量、种养时间、种养周期、生长环境信息等数据进行精确的采集，精准到每一户每一类型。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="are-doing-list-top">
+                            <div class="are-doing-list-bg data-roots"></div>
+                        </div>
+                        <div class="data-collect-text  text-center">
+                            <h4 class="sp-f28 margin-b-10">精准溯源</h4>
+                            <p class="sp-txt-4A">对农产品的数量、种养时间、种养周期、海拔、生长环境信息等数据进行精确的采集，精准到每一户每一类型的农产品。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="are-doing-list-top">
+                            <div class="are-doing-list-bg data-brainstorm"></div>
+                        </div>
+                        <div class="data-collect-text text-center">
+                            <h4 class="sp-f28 margin-b-10">数据挖掘</h4>
+                            <p class="sp-txt-4A">对农产品的数量、种养时间、种养周期、生长环境信息等数据进行精确的采集，精准到每一户每一类型。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </content>
+        <div class="service container clear sp-relative">
+            <div class="service-bg"></div>
+            <div class="service-text">
+                <i class="web-font sp-f48">我们提供的服务</i>
+                <p class="margin-tb-15 sp-relative">
+                    为企业、组织或个人提供溯源码打印服务，为开发人员提供数据接口调用
+                    <i class=""></i>
+                </p>
+                <div class="service-details">查看详情</div>
+            </div>
+        </div>
+        <content class="results-container clear">
+            <div class="container">
+                <i class="web-font sp-f48 sp-txt-white">我们的成绩</i>
+                <ul class="results-list clear" style="overflow:hidden;">
+                    <li class="sp-wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <i class="sp-icon icon-shop padding-tb5 sp-f60"></i>
+                        <div class="sp-f36">19</div>
+                        <div class="sp-f18">对接省份(个)</div>
+                    </li>
+                    <li class="sp-wow slideInUp" data-wow-duration="2s" data-wow-delay="1s">
+                        <i class="sp-icon icon-speech padding-tb5 sp-f60"></i>
+                        <div class="sp-f36">200</div>
+                        <div class="sp-f18">进驻村庄(个)</div>
+                    </li>
+                    <li class="sp-wow slideInUp" data-wow-duration="2s" data-wow-delay="1.5s">
+                        <i class="sp-icon icon-cash padding-tb5 sp-f60"></i>
+                        <div class="sp-f36">4,000</div>
+                        <div class="sp-f18">帮扶贫困人口(户)</div>
+                    </li>
+                    <li class="sp-wow slideInUp" data-wow-duration="2s" data-wow-delay="2s">
+                        <i class="sp-icon icon-doll padding-tb5 sp-f60"></i>
+                        <div class="sp-f36">2,000,000</div>
+                        <div class="sp-f18">农民总增收(元)</div>
+                    </li>
+                    <li class="sp-wow slideInUp" data-wow-duration="2s" data-wow-delay="2.5s">
+                        <i class="sp-icon icon-truck padding-tb5 sp-f60"></i>
+                        <div class="sp-f36">100,000</div>
+                        <div class="sp-f18">总行程(公里)</div>
+                    </li>
+
+                </ul>
+            </div>
+        </content>
+        <div class="office-bg sp-relative">
+            <div class="office-container">
+                <div class="office-text-bg sp-wow fadeIn" data-wow-duration="3s" data-wow-delay="0.3s"></div>
+                <p class="sp-wow fadeIn" data-wow-duration="3s" data-wow-delay="0.6s">
+                    这是一只有梦想的团队，怀揣着做一点不一样的事情的心态去影响这个世界，长期穿梭于城市与村庄之间，行程累积达10万公里，通过自己的努力去建立与城乡人的情感链接，关注在农产品产业链中自下而上创新的新可能。
+                </p>
+                <div class="sp-wow fadeIn office-details" data-wow-duration="3s" data-wow-delay="0.9s" style="margin: auto">查看详情</div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container clear">
+                <div class="clear">
+                    <div class="footer-l sp-txt-9b">
+                        <section>
+                            <i>logo</i>
+                            <div class="sp-f24 sp-txt-white">400-000-777</div>
+                            <div class="sp-adderss sp-f14 sp-txt-9b">
+                                广西壮族自治区 南宁市 江南区<br/>
+                                那洪大道7号 研祥智谷 碎片科技
+                            </div>
+                            <div class="contact clear sp-relative">
+                                <div class="email sp-absolute">
+                                    <div class="email-hover">170080383@qq.com</div>
+                                    <i class="sp-icon icon-email"></i>
+                                    <span>EMAIL</span>
+                                </div>
+                                <div class="faq">
+                                    <i class="sp-icon icon-faq"></i>
+                                    <span>FAQ</span>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <nav class="footer-r">
+                        <div class="directory-column-section-list">
+                            <h3 class="margin-b-10 sp-txt-white">网站地图
+                                <i class="sp-icon icon-gengduo icon-iconziti36 font16" >
+                                </i>
+                            </h3>
+                            <ul class="section sp-txt-9b">
+                                <li>首页</li>
+                                <li>关于我们</li>
+                                <li>技术博客</li>
+                                <li>API文档</li>
+                                <li>购买土货</li>
+                            </ul>
+                        </div>
+                        <div class="directory-column-section-list">
+                            <h3 class="margin-b-10 sp-txt-white">关注我们
+                                <i class="sp-icon icon-gengduo icon-iconziti36 font16" >
+                                </i>
+                            </h3>
+                            <ul class="section sp-txt-9b">
+                                <li>微信公众号</li>
+                                <li>新浪微博</li>
+                            </ul>
+                        </div>
+                        <div class="directory-column-section-list">
+                            <h3 class="margin-b-10 sp-txt-white">友情链接
+                                <i class="sp-icon icon-gengduo icon-iconziti36 font16" >
+                                </i>
+                            </h3>
+                            <ul class="section sp-txt-9b">
+                                <li>首页</li>
+                                <li>关于我们</li>
+                                <li>技术博客</li>
+                                <li>API文档</li>
+                                <li>购买土货</li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="for-the-record sp-txt-9b">
+                    <div class="for-the-record-l">©2017-碎片科技 All Rights Reserved</div>
+                    <div class="for-the-record-r">Happy tiny team</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script>
+
+    (function (cssrain) {
+        var downLoadBar = cssrain('.nav-width');
+        var downSetTop = downLoadBar.offset().top;
+        cssrain(window).on('scroll', function() {
+            var nowScroll = cssrain(this).scrollTop()
+            if(nowScroll > downSetTop) {
+                downLoadBar.addClass('nav-fixed')
+            } else {
+                downLoadBar.removeClass('nav-fixed')
+            }
+        });
+    })($)
+
+    $('.are-doing-list >li').hover(function () {
+        $(this).addClass("are-doing-list-hover");
+    },function () {
+        $(this).removeClass('are-doing-list-hover')
+    });
+
+    $(function () {
+        if($(window).width() < 767){
+            $('.are-doing-list >li').addClass("are-doing-list-hover");
+        }else {
+            $('.are-doing-list >li').removeClass("are-doing-list-hover");
+        }
+    });
+
+    //    max767导航部分
+    (function(cssrain){
+        cssrain('#icon').click(
+            function () {
+                cssrain(this).toggleClass('icon-gengduo');
+                cssrain('.sp-header-nav').toggle();
+                cssrain('.nav-iPad').toggleClass('sp-header-fixed');
+            }
+        );
+    })($);
+    //    max767底部
+    (function(cssrain){
+        cssrain('.directory-column-section-list .sp-icon').click(
+            function () {
+                var _this = cssrain(this);
+                _this.toggleClass('icon-gengduo');
+                _this.parents().next('ul').toggle();
+            }
+        );
+    })($);
+
+    var spWOW = new WOW({
+            boxClass:     'sp-wow',      //动画元素css类 (default is wow)
+            animateClass: 'animated', //动画css类（默认是动画）
+            offset:       0,          //触发动画到元素的距离（默认为0）
+            mobile:       true,      //在移动设备上触发动画（默认为true）
+            live:         true,        //作用于异步加载的内容（默认为true）
+            callback:     function(box) {
+                //每次启动动画时都会触发回调
+                //传入的参数是动态的DOM节点
+            },
+            scrollContainer: null //可选滚动容器选择器，否则使用窗口
+        }
+    );
+    spWOW.init();
+</script>
+</body>
+</html>
