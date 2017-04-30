@@ -1,10 +1,9 @@
 var fnIndex = async(ctx, next) => {
-    ctx.response.body = `<h1>Index</h1>
-        <form action="/signin" method="post">
-            <p>Name: <input name="name" value="koa"></p>
-            <p>Password: <input name="password" type="password"></p>
-            <p><input type="submit" value="Submit"></p>
-        </form>`;
+    const data = {
+        title: '碎片科技',
+        name: '黄恩景',
+    };
+    ctx.render('index.html', data);
 };
 
 var fnSignin = async(ctx, next) => {
@@ -22,5 +21,7 @@ var fnSignin = async(ctx, next) => {
 
 module.exports = {
     'GET /': fnIndex,
+    'GET /index': fnIndex,
+    'GET /index.html': fnIndex,
     'POST /signin': fnSignin
 };

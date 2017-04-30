@@ -36,7 +36,7 @@ let addController = (router, dir = 'controllers') => {
     
     // 处理每个文件
     for (let file of js_files) {
-        console.log(file)
+        //console.log(file)
         let maping = require(`${__dirname}/${dir}/${file}`);
         // 调用处理文件的函数
         addMaping(maping, router);

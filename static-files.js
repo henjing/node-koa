@@ -9,8 +9,6 @@ import mime from 'mime';
 export default function staticFiles(url, dir) {
     return async (ctx, next) => {
         let rpath = ctx.request.path;
-        console.log('path000' + rpath)
-        console.log('dir' + dir)
         // 判断是否以指定的url开头
         if (rpath.startsWith(url)) {
             

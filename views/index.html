@@ -8,13 +8,13 @@
     <meta name="author" content="穗片土货">
     <meta name="robots" content="index,follow">
     <meta name="application-name" content="shuipian.com">
-    <title>碎片科技</title>
-    <link href="css/lib/debris.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-    <link href="css/lib/animate.css" rel="stylesheet">
+    <title></title>
+    <link href="../static/css/lib/debris.css" rel="stylesheet">
+    <link href="../static/css/index.css" rel="stylesheet">
+    <link href="../static/css/lib/animate.css" rel="stylesheet">
     <!--选择相应css-->
-    <script type="text/javascript" src="js/lib/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/lib/animation.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/animation.min.js"></script>
     <script type="text/javascript">
         var browser = {
             versions: function () {
@@ -57,8 +57,8 @@
                 <div class="nav-width clear">
                     <div class="sp-logo">logo</div>
                     <nav class="sp-nav">
-                        <div class="center nav-button active">首页</div>
-                        <div class="center nav-button ">关于我们</div>
+                        <div class="center nav-button active">{{ title }}</div>
+                        <div class="center nav-button ">{{ name }}</div>
                         <div class="center nav-button ">技术博客</div>
                         <div class="center nav-button ">API文档</div>
                         <div class="center nav-button ">购买土货</div>
